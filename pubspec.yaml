@@ -21,16 +21,7 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  assets:
-    - assets/images/
-    - assets/fonts/
-  # Example assets configuration - uncomment and add assets as needed
+  # Hata vermemesi için şimdilik bunları yorum satırı yapıyoruz:
   # assets:
-  #   - assets/images/logo.png
-  #   - assets/images/backgrounds/
-  # fonts:
-  #   - family: CustomFont
-  #     fonts:
-  #       - asset: assets/fonts/custom_font.ttf
-  #       - asset: assets/fonts/custom_font_italic.ttf
-  #         style: italic
+  #   - assets/images/
+  #   - assets/fonts/
