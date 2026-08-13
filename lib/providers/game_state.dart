@@ -94,7 +94,7 @@ class GameStateProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  void spendCoins(int amount) {
+  bool spendCoins(int amount) {
     if (_currentCoins >= amount) {
       _currentCoins -= amount;
       _currentPlayer = _currentPlayer?.copyWith(coins: _currentCoins);
